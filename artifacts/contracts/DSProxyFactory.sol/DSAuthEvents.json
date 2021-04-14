@@ -1,0 +1,37 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "DSAuthEvents",
+  "sourceName": "contracts/DSProxyFactory.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "authority",
+          "type": "address"
+        }
+      ],
+      "name": "LogSetAuthority",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "LogSetOwner",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220d3b3754a392801062bc238a200e850fa14a65127987811cca56fd600dbe296a564736f6c634300060c0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220d3b3754a392801062bc238a200e850fa14a65127987811cca56fd600dbe296a564736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

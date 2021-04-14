@@ -1,0 +1,1026 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/BActions.sol": {
+      "lastModificationDate": 1617676574667,
+      "contentHash": "d3f15099ee5bfbc7a4ff9aa956ac5ac0",
+      "sourceName": "contracts/BActions.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "AbstractPool",
+        "BActions",
+        "BFactory",
+        "BPool",
+        "BuniOwnable",
+        "CRPFactory",
+        "ConfigurableRightsPool",
+        "ERC20",
+        "RightsManager"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/DSProxyFactory.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "074a7dee2392c99b12b747dc57fe1653",
+      "sourceName": "contracts/DSProxyFactory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DSAuth",
+        "DSAuthEvents",
+        "DSAuthority",
+        "DSNote",
+        "DSProxy",
+        "DSProxyCache",
+        "DSProxyFactory"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/Migrations.sol": {
+      "lastModificationDate": 1616580192420,
+      "contentHash": "947b531a2ec62951dc8f9757b3e52eb1",
+      "sourceName": "contracts/Migrations.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "Migrations"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/BFactory.sol": {
+      "lastModificationDate": 1617676372483,
+      "contentHash": "88d947115e67a45699894e81eac25746",
+      "sourceName": "contracts/test/BFactory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./BPool.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "BFactory"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/BPool.sol": {
+      "lastModificationDate": 1617676286664,
+      "contentHash": "7f0d7eccdc6787c6f1e2161430476b52",
+      "sourceName": "contracts/test/BPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./KToken.sol",
+        "./KMath.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "BPool"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/KToken.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "b6ade9626188cd0f7f0e38eb7864739b",
+      "sourceName": "contracts/test/KToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./KNum.sol",
+        "./PCToken.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KToken",
+        "KTokenBase"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/KMath.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "36ff027c1b6b677b8bb358299142aa28",
+      "sourceName": "contracts/test/KMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./KNum.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KMath"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/KNum.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "ea076dfcb09ac4741986cb9ae24b14ff",
+      "sourceName": "contracts/test/KNum.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./KConst.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KNum"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/PCToken.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "f2ae156f8403cab299902e22a99ad693",
+      "sourceName": "contracts/test/PCToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./KalancerSafeMath.sol",
+        "./KalancerConstants.sol",
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "PCToken"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/KConst.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "1efab4cf11b2de08130193488fd9cfee",
+      "sourceName": "contracts/test/KConst.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KConst"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/KalancerSafeMath.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "f2bb55851fc5205260bc17db4d4a6cf6",
+      "sourceName": "contracts/test/KalancerSafeMath.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./KalancerConstants.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KalancerSafeMath"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/KalancerConstants.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "f8b4122f4e70b534c605901bf7e72905",
+      "sourceName": "contracts/test/KalancerConstants.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KalancerConstants"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/IERC20.sol": {
+      "lastModificationDate": 1616580192432,
+      "contentHash": "e2024b489f61ab3a0f88be41b77cce10",
+      "sourceName": "contracts/test/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/ConfigurableRightsPool.sol": {
+      "lastModificationDate": 1617676393202,
+      "contentHash": "57799e5bd7767a6f24295bb83715d0c3",
+      "sourceName": "contracts/test/ConfigurableRightsPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IBFactory.sol",
+        "./PCToken.sol",
+        "./KalancerReentrancyGuard.sol",
+        "./KalancerOwnable.sol",
+        "./RightsManager.sol",
+        "./SmartPoolManager.sol",
+        "./SafeApprove.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ConfigurableRightsPool"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/IBFactory.sol": {
+      "lastModificationDate": 1617676372483,
+      "contentHash": "2424a9d696f451f77086d0cd4d3d347a",
+      "sourceName": "contracts/test/IBFactory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "IBFactory",
+        "IBPool"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/KalancerReentrancyGuard.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "71730621e678a79151cbb1070a01768d",
+      "sourceName": "contracts/test/KalancerReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KalancerReentrancyGuard"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/KalancerOwnable.sol": {
+      "lastModificationDate": 1617628000800,
+      "contentHash": "9e7915ac09e1dfbde39ec6d0cd3893cb",
+      "sourceName": "contracts/test/KalancerOwnable.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "KalancerOwnable"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/RightsManager.sol": {
+      "lastModificationDate": 1616580192428,
+      "contentHash": "49a9a972e69d410ecfafbb652d608e21",
+      "sourceName": "contracts/test/RightsManager.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "RightsManager"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/SmartPoolManager.sol": {
+      "lastModificationDate": 1617676315772,
+      "contentHash": "61075f52a2fb1efdbc9fd49e87d1dab9",
+      "sourceName": "contracts/test/SmartPoolManager.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./ConfigurableRightsPool.sol",
+        "./IBFactory.sol",
+        "./KalancerConstants.sol",
+        "./KalancerSafeMath.sol",
+        "./SafeApprove.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SmartPoolManager"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/SafeApprove.sol": {
+      "lastModificationDate": 1616580192432,
+      "contentHash": "880c8caeb8675e8ee81fc4f1568eb512",
+      "sourceName": "contracts/test/SafeApprove.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "SafeApprove"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/CRPFactory.sol": {
+      "lastModificationDate": 1617676286664,
+      "contentHash": "360060ab19dc9643b0f09f45f614d117",
+      "sourceName": "contracts/test/CRPFactory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./ConfigurableRightsPool.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "CRPFactory"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/TToken.sol": {
+      "lastModificationDate": 1616580192428,
+      "contentHash": "7f19fe0e2c0df033e8e4fd6c9ab7cdcb",
+      "sourceName": "contracts/test/TToken.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "TToken"
+      ]
+    },
+    "/home/vyper/Downloads/Work Projects/avengers/kalancer-action/contracts/test/TTokenFactory.sol": {
+      "lastModificationDate": 1616580192424,
+      "contentHash": "e94bdb377188415ffe7a813f9d469b47",
+      "sourceName": "contracts/test/TTokenFactory.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./TToken.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "TTokenFactory"
+      ]
+    }
+  }
+}
