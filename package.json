@@ -21,7 +21,7 @@
         "eslint-plugin-jsx-a11y": "^6.2.3",
         "eslint-plugin-react": "^7.17.0",
         "ganache-core": "^2.6.1",
-        "mocha": "^6.2.0",
+        "mocha": "^10.2.0",
         "solhint": "^3.2.0",
         "solidity-coverage": "^0.7.10",
         "standard": "^14.0.2",
@@ -36,7 +36,7 @@
         "decimal.js": "^10.2.0",
         "ganache-cli": "^6.7.0",
         "global": "^4.4.0",
-        "hardhat": "^2.1.2",
+        "hardhat": "^2.12.5",
         "hardhat-deploy": "^0.7.1",
         "truffle-hdwallet-provider": "^1.0.17",
         "truffle-plugin-verify": "^0.5.7"
